@@ -13,7 +13,7 @@ class QuizApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: QuizCreatorScreen(),
+      home: CreateQuizScreen(),
       builder: (context, child) {
         return Directionality(
         textDirection: TextDirection.ltr, // Force Left-to-Right globally
